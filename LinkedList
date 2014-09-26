@@ -8,7 +8,7 @@ public class LinkedList
  
   public LinkedList(Node newfirst)
   {
-   //first = newFirst;
+   first = newFirst;
   }
   
   public void setFirst(Node newFirst)
