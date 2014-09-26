@@ -1,0 +1,21 @@
+public class Lab4Test{
+
+public static void main(String [] args)
+{
+  Node first = new Node(3.0);
+  Node second = new Node(6.5);
+  Node third = new Node(2.25);
+  Node fourth = new Node(5.0);
+
+  third.setNext(fourth);
+  second.setNext(third);
+  first.setNext(second);
+  
+  LinkedList list = new LinkedList(first);
+  
+  System.out.println("Values: ");
+  list.printValues();
+  System.out.println();
+  System.out.println("Sum: " + list.sum());
+}
+}
