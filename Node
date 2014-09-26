@@ -1,0 +1,39 @@
+public class Node
+{
+  private Node next;
+  private double data;
+    
+//    public Node()
+//  {
+//      
+//  }
+//  
+  public Node(double newData)
+  {
+   data = newData;
+   next = null;
+  }
+  public Node(double newData, Node newNext){
+    
+    this.data = newData;
+    this.next = newNext;
+  }
+
+  public void setNext(Node newNext){
+    this.next = next;
+  }
+  
+  public Node getNext(Node next){
+    return next;
+  }
+  
+   public void setData(double newData){
+    this.data = data;
+  }
+  
+  public double getData(double next){
+    return data;
+  }
+  
+}
+
