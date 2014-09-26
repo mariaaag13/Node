@@ -1,0 +1,31 @@
+public class LinkedList
+{
+  private Node first;
+  
+  public LinkedList()
+  {
+  }
+ 
+  public LinkedList(Node newfirst)
+  {
+   //first = newFirst;
+  }
+  
+  public void setFirst(Node newFirst)
+  {
+    this.first = first;
+  }
+  
+  public Node getFirst(Node first)
+  {
+    return first;
+  }
+ public void printValues()
+ {
+ }
+  public void sum()
+  {
+    
+  }
+  
+}
