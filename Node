@@ -3,11 +3,7 @@ public class Node
   private Node next;
   private double data;
     
-//    public Node()
-//  {
-//      
-//  }
-//  
+    public Node(){}
   public Node(double newData)
   {
    data = newData;
